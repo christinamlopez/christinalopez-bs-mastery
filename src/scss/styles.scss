@@ -23,4 +23,66 @@
 // Import partials:
 
 // Custom styles:
+ 
+$primary-color: rgb(69, 201, 181);
+$body-bg: #ededed;
+
+.nav-item {
+    a:hover{ 
+        text-decoration: underline;
+    }
+ }
+
+ header{
+  background-color: #ffffff;
+  background-image: url("../img/pirate-ship.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+  
+  h1 {
+    font-family: "Metamorphous", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+  }
+
+  
+  .content {
+    margin: auto;
+    padding: 5px;
+    color: black;
+    font-size: 15px;
+
+    p{
+      font-size: 15px;
+      padding: auto;
+      margin-bottom: 12px;
+    }
+
+    h2 { 
+      font-size: 35px;
+    }
+
+    footer {
+      text-align: center;
+      background-color: $primary-color;
+      margin-top: 1rem;
+      padding: 10px;
+    }
+
+    h3{
+      font-weight: bold;
+      margin:auto;
+      color: black;
+    }
+  }
+  
+  .carousel-caption{
+    font-size:12px;
+    color:whitesmoke;
+  }
 
